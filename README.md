@@ -1,6 +1,9 @@
 # Draw-triangle
 CSS Draw triangle
 
-Relevant Problems in Drawing Triangle with Pencil
+Relevant Problems in Drawing Triangle with CSS.   CSS画三角形的相关问题  
 
-The Principle of Drawing Triangle
+The Principle of Drawing Triangle.  CSS画三角形的原理
+
+
+
