@@ -7,6 +7,8 @@ The Principle of Drawing Triangle.  CSS画三角形的原理
 
 ![image](https://github.com/hilads/Draw-triangle/blob/master/images/image.png)
 
+画三角形的原理为利用div盒模型 通过设置div的4个border边的颜色宽度来达到的效果.
+
 like this
 
 
