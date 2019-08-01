@@ -24,3 +24,42 @@ div {
 show:
 ![image](https://github.com/hilads/Draw-triangle/blob/master/images/borderDiv.png)
 
+如果我们把中间内容尺寸设为0 like this 
+
+div {
+
+    width: 0;
+    
+    height: 0;
+    
+    border: 40px solid;
+    
+    border-color: orange blue red green;
+    
+}
+
+我们可以得到：
+
+![image](https://github.com/hilads/Draw-triangle/blob/master/images/borderDiv1.png)
+
+如果我们只要下面红色的三角形 we can do it 
+
+like this
+
+div {
+
+    width: 0;
+    
+    height: 0;
+    
+    border: 40px solid;
+    
+    border-color: transparent transparent red;
+    
+}
+
+将border的其他边的颜色设为透明，我们可以得到：
+
+![image](https://github.com/hilads/Draw-triangle/blob/master/images/red.png)
+
+
