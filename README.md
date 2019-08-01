@@ -7,3 +7,20 @@ The Principle of Drawing Triangle.  CSS画三角形的原理
 
 ![image](https://github.com/hilads/Draw-triangle/blob/master/images/image.png)
 
+like this
+
+
+div {
+
+    width: 50px;
+		
+    height: 50px;
+		
+    border: 40px solid;
+		
+    border-color: orange blue red green;
+}
+
+show:
+![image](https://github.com/hilads/Draw-triangle/blob/master/images/borderDiv.png)
+
