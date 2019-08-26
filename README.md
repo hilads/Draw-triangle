@@ -68,24 +68,18 @@ div {
 
 可以：
 
-<div class="tooltip_sty">
+     <div class="tooltip_sty">
 	
-   <div id="tooltip_sty">单笔小于5万，单日小于5万</div>
+        <div>单笔小于5万，单日小于5万</div>
    
-</div>
+     </div>
 
-.tooltip_sty {
+.tooltip_sty{
 
-  margin-left: 20px;
-  color: #3b9fe2;
-  font-size: 14px;
-  margin-top: 5px;
-  width: 430px;
-  background-color: #f5fcff;
-  border: 1px solid #3b9fe2;
-  border-radius: 4px;
-  height: 35px;
-  position: relative;
+     background-color: #f5fcff;
+     border: 1px solid #3b9fe2;
+     border-radius: 4px;
+     position: relative;
   
 }
 
