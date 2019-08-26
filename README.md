@@ -64,4 +64,42 @@ div {
 
 ![image](https://github.com/hilads/Draw-triangle/blob/master/images/red.png)
 
+像这种 ![image](https://github.com/hilads/Draw-triangle/blob/master/images/image1.png)
+可以：
+            <div class="tooltip_sty">
+              <div id="tooltip_sty">单笔小于{{singleAmountLimit}}万，单日小于{{dayAmountLimit}}万</div>
+            </div>
+.tooltip_sty {
+  margin-left: 20px;
+  color: #3b9fe2;
+  font-size: 14px;
+  margin-top: 5px;
+  width: 430px;
+  background-color: #f5fcff;
+  border: 1px solid #3b9fe2;
+  border-radius: 4px;
+  height: 35px;
+  position: relative;
+}
+
+.tooltip_sty:before{
+	content:"";
+	position: absolute;
+	left:-17px;
+	top:50%;
+	margin-top: -8px;
+	border: 8px solid transparent;
+	border-right-color:#3b9fe2;
+}
+
+.tooltip_sty:after{
+	content:"";
+	position: absolute;
+	left:-15px;
+	top: 50%;
+	margin-top: -8px;
+	border: 8px solid transparent;
+	border-right-color: white
+}
+
 
