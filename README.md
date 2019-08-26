@@ -12,33 +12,24 @@ The Principle of Drawing Triangle.  CSS画三角形的原理
 like this
 
 
-div {
-
-    width: 50px;
-		
-    height: 50px;
-		
-    border: 40px solid;
-		
+    div {
+    width: 50px;	
+    height: 50px;	
+    border: 40px solid;	
     border-color: orange blue red green;
-}
+   }
 
 show:
 ![image](https://github.com/hilads/Draw-triangle/blob/master/images/borderDiv.png)
 
 如果我们把中间内容尺寸设为0 like this 
 
-div {
-
+    div {
     width: 0;
-    
     height: 0;
-    
     border: 40px solid;
-    
     border-color: orange blue red green;
-    
-}
+    }
 
 我们可以得到：
 
@@ -48,17 +39,12 @@ div {
 
 like this
 
-div {
-
+    div {
     width: 0;
-    
     height: 0;
-    
     border: 40px solid;
-    
     border-color: transparent transparent red;
-    
-}
+    }
 
 将border的其他边的颜色设为透明，我们可以得到：
 
@@ -69,22 +55,17 @@ div {
 可以：
 
      <div class="tooltip_sty">
-	
         <div>单笔小于5万，单日小于5万</div>
-   
      </div>
 
-.tooltip_sty{
-
+    .tooltip_sty{
      background-color: #f5fcff;
      border: 1px solid #3b9fe2;
      border-radius: 4px;
      position: relative;
-  
-}
+    }
 
-.tooltip_sty:before{
-
+    .tooltip_sty:before{
 	content:"";
 	position: absolute;
 	left:-17px;
@@ -92,11 +73,9 @@ div {
 	margin-top: -8px;
 	border: 8px solid transparent;
 	border-right-color:#3b9fe2;
-	
-}
+    }
 
-.tooltip_sty:after{
-
+    .tooltip_sty:after{
 	content:"";
 	position: absolute;
 	left:-15px;
@@ -104,7 +83,6 @@ div {
 	margin-top: -8px;
 	border: 8px solid transparent;
 	border-right-color: white
-	
-}
+    }
 
 
