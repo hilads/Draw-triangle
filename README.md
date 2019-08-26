@@ -69,7 +69,9 @@ div {
 可以：
 
 <div class="tooltip_sty">
-   <div id="tooltip_sty">单笔小于{{singleAmountLimit}}万，单日小于{{dayAmountLimit}}万</div>
+	
+   <div id="tooltip_sty">单笔小于5万，单日小于5万</div>
+   
 </div>
 
 .tooltip_sty {
